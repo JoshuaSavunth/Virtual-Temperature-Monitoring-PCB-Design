@@ -281,8 +281,3 @@ The next stage of the project would be to:
 * **SPICE** — analog simulation
 * **Git / GitHub** — project version control
 
-## Documentation
-
-The full project report contains the detailed design calculations, simulation results, PCB design, firmware implementation, verification, limitations, and lessons learned.
-
-📄 [Full Project Report](Documents/Virtual%20Temperature%20Monitoring%20PCB%20Design.pdf)
