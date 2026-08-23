@@ -111,7 +111,7 @@ The theoretical ADC range extends to approximately 3.3 V. With the sensor model 
 
 ```text
 
-## Simulation and Analysis
+Simulation and Analysis
 
 SPICE transient simulation was used to examine the behaviour of the RC filter.
 
