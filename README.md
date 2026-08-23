@@ -40,7 +40,7 @@ Host PC
 
 ## PCB Preview
 
-<img width="606" height="367" alt="VirtualTemperatureMonitoringPCB_3D" src="https://github.com/user-attachments/assets/a3ecc7b7-3c3c-4e6b-ad42-c9296d7fb148" />
+<img width="404" height="245" alt="VirtualTemperatureMonitoringPCB_3D" src="https://github.com/user-attachments/assets/a3ecc7b7-3c3c-4e6b-ad42-c9296d7fb148" />
 
 
 *3D representation of the virtual PCB design.*
