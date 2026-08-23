@@ -1,0 +1,54 @@
+** Drc report for Virtual_Temperature_Monitoring_PCB.kicad_pcb **
+** Created on 2026-08-22T02:57:56 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 0 DRC violations **
+
+** Found 9 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(71.7300 mm, 85.0800 mm): PTH pad 2 [GND] of J2
+    @(82.6800 mm, 83.3150 mm): Pad 2 [GND] of C2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(89.0800 mm, 81.0150 mm): Pad 1 [GND] of U2 on F.Cu
+    @(82.6800 mm, 83.3150 mm): Pad 2 [GND] of C2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(94.6800 mm, 91.3150 mm): Pad 2 [GND] of C3 on F.Cu
+    @(89.0800 mm, 81.0150 mm): Pad 1 [GND] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(94.6800 mm, 91.3150 mm): Pad 2 [GND] of C3 on F.Cu
+    @(108.5000 mm, 87.0000 mm): Pad 2 [GND] of C1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.7750 mm, 76.0000 mm): Pad 2 [GND] of C6 on F.Cu
+    @(115.1300 mm, 84.6150 mm): Pad 49 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(112.7750 mm, 76.0000 mm): Pad 2 [GND] of C6 on F.Cu
+    @(102.2018 mm, 66.9600 mm): PTH pad 1 [GND] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.1300 mm, 84.6150 mm): Pad 49 [GND] of U1 on F.Cu
+    @(108.5000 mm, 87.0000 mm): Pad 2 [GND] of C1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(115.1300 mm, 84.6150 mm): Pad 49 [GND] of U1 on F.Cu
+    @(118.7750 mm, 95.0000 mm): Pad 2 [GND] of C4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(125.7750 mm, 82.5000 mm): Pad 2 [GND] of C5 on F.Cu
+    @(115.1300 mm, 84.6150 mm): Pad 49 [GND] of U1 on F.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

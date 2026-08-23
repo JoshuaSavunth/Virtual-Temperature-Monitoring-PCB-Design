@@ -1,0 +1,15 @@
+ERC report (2026-08-21T13:09:35, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[label_dangling]: Label not connected
+    ; error (excluded)
+    @(3200 mils, 2650 mils): Label 'ADC_TEMP'
+
+ ** ERC messages: 1  Errors 1  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
