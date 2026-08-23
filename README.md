@@ -87,7 +87,7 @@ The 3.3 V supply is generated from the nominal 5 V input using an **AMS1117-3.3*
 
 ## Firmware
 
-The STM32 firmware was developed using **STM32CubeIDE** and the **STM32 Hardware Abstraction Layer (HAL)**.
+The STM32 firmware was developed in C using **STM32CubeIDE** and the **STM32 Hardware Abstraction Layer (HAL)**.
 
 The firmware configures:
 
@@ -202,7 +202,7 @@ The next stage of the project would be to:
 │   ├── Drill files
 │   └── BOM
 │
-├── Project report/
+├── Project Report
 │   
 │
 ├── Images/
@@ -218,7 +218,6 @@ The next stage of the project would be to:
 
 * **KiCad 10** — schematic capture and PCB design
 * **STM32CubeIDE** — firmware development
-* **STM32 HAL** — MCU peripheral configuration
 * **SPICE** — analog simulation
 * **Git / GitHub** — project version control
 
