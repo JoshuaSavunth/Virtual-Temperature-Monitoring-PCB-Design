@@ -2,8 +2,7 @@
 
 A computer-based design of a temperature-monitoring PCB using an **STM32G431CBUx** microcontroller.
 
-The project covers the design process from schematic capture and analog signal conditioning through SPICE simulation, PCB layout, firmware development, and manufacturing-file generation.<img width="1809" height="1095" alt="VirtualTemperatureMonitoringPCB_3D" src="https://github.com/user-attachments/assets/2dcf0609-867c-4761-8450-6909d38a842c" />
-
+The project covers the design process from schematic capture and analog signal conditioning through SPICE simulation, PCB layout, firmware development, and manufacturing-file generation.
 
 ## Overview
 
@@ -41,7 +40,7 @@ Host PC
 
 ## PCB Preview
 
-<img width="1809" height="1095" alt="VirtualTemperatureMonitoringPCB_3D" src="https://github.com/user-attachments/assets/a3ecc7b7-3c3c-4e6b-ad42-c9296d7fb148" />
+<img width="1212" height="734" alt="VirtualTemperatureMonitoringPCB_3D" src="https://github.com/user-attachments/assets/a3ecc7b7-3c3c-4e6b-ad42-c9296d7fb148" />
 
 
 *3D representation of the virtual PCB design.*
