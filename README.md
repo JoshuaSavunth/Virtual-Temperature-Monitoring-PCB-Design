@@ -121,7 +121,7 @@ The ideal 12-bit ADC resolution is:
 
 ```text
 3.3 V / 4096 ≈ 0.806 mV/count
-
+```
 Some expected values are:
 
 | Temperature | Sensor Voltage | Approx. ADC Code |
