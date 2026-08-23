@@ -109,7 +109,7 @@ The theoretical ADC range extends to approximately 3.3 V. With the sensor model 
 
 ### Firmware Flow
 
-<img width="448" height="1119" alt="pcb-flowchart" src="https://github.com/user-attachments/assets/6c4a99b3-e5bd-4ef5-ad1f-11c275398ec9" />
+<img width="280" height="700" alt="pcb-flowchart" src="https://github.com/user-attachments/assets/6c4a99b3-e5bd-4ef5-ad1f-11c275398ec9" />
 
 ```text
 
