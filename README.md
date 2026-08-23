@@ -87,7 +87,7 @@ The 3.3 V supply is generated from the nominal 5 V input using an **AMS1117-3.3*
 
 ## Firmware
 
-The STM32 firmware was developed in C using **STM32CubeIDE** and the **STM32 Hardware Abstraction Layer (HAL)**.
+The STM32 firmware was developed in **C** using **STM32CubeIDE** and the **STM32 Hardware Abstraction Layer (HAL)**.
 
 The firmware configures:
 
