@@ -111,9 +111,7 @@ The theoretical ADC range extends to approximately 3.3 V. With the sensor model 
 
 <img width="141" height="352" alt="pcb-flowchart" src="https://github.com/user-attachments/assets/6c4a99b3-e5bd-4ef5-ad1f-11c275398ec9" />
 
-```text
-
-Simulation and Analysis
+## Simulation and Analysis
 
 SPICE transient simulation was used to examine the behaviour of the RC filter.
 
@@ -123,7 +121,6 @@ The ideal 12-bit ADC resolution is:
 
 ```text
 3.3 V / 4096 ≈ 0.806 mV/count
-```
 
 Some expected values are:
 
