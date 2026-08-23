@@ -260,8 +260,8 @@ The next stage of the project would be to:
 │   ├── Drill files
 │   └── BOM
 │
-├── Documents/
-│   └── Project report
+├── Project report
+│   
 │
 ├── Images/
 │   ├── pcb-3d.png
