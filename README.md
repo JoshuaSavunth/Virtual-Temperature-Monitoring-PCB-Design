@@ -120,7 +120,7 @@ flowchart TD
     H --> C
 ```
 
-## Simulation and Analysis
+### Simulation and Analysis
 
 SPICE transient simulation was used to examine the behaviour of the RC filter.
 
