@@ -260,7 +260,7 @@ The next stage of the project would be to:
 │   ├── Drill files
 │   └── BOM
 │
-├── Project report
+├── Project report/
 │   
 │
 ├── Images/
