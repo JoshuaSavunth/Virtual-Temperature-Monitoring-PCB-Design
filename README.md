@@ -109,18 +109,9 @@ The theoretical ADC range extends to approximately 3.3 V. With the sensor model 
 
 ### Firmware Flow
 
-flowchart TD
-    A[Power On] --> B[Initialize Peripherals]
-    B --> C[Enter Main Loop]
-    C --> D[Read ADC]
-    D --> E[Convert to Voltage]
-    E --> F[Convert to Temperature]
-    F --> G[Format & Transmit UART Data]
-    G --> H[Delay 1 Second]
-    H --> C
-```
+```text
 
-### Simulation and Analysis
+## Simulation and Analysis
 
 SPICE transient simulation was used to examine the behaviour of the RC filter.
 
