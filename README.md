@@ -109,63 +109,15 @@ The theoretical ADC range extends to approximately 3.3 V. With the sensor model 
 
 ### Firmware Flow
 
-```text
-                    ┌─────────────────────────────┐
-                    │         POWER ON            │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │    Initialize Peripherals   │
-                    │  - ADC1 (12-bit, PA0)      │
-                    │  - USART1 (115200 baud)    │
-                    │  - SysTick Timer (1s)      │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │        MAIN LOOP            │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │    Read ADC Value           │
-                    │    (0 - 4095)              │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │    Convert to Voltage       │
-                    │    V = ADC × 3.3V / 4096   │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │    Convert to Temperature   │
-                    │    T = V / 0.02            │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │    Format Output            │
-                    │    "ADC: X, V: X.XXX, T"   │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │    Transmit via UART        │
-                    │    (PA9 TX, PA10 RX)        │
-                    └──────────────┬──────────────┘
-                                   │
-                                   ▼
-                    ┌─────────────────────────────┐
-                    │    Delay 1 second           │
-                    └──────────────┬──────────────┘
-                                   │
-                                   └──────────────────┐
-                                                      │
-                                                      ▼
-                                          (Loop back to Main Loop)
+flowchart TD
+    A[Power On] --> B[Initialize Peripherals]
+    B --> C[Enter Main Loop]
+    C --> D[Read ADC]
+    D --> E[Convert to Voltage]
+    E --> F[Convert to Temperature]
+    F --> G[Format & Transmit UART Data]
+    G --> H[Delay 1 Second]
+    H --> C
 ```
 
 ## Simulation and Analysis
