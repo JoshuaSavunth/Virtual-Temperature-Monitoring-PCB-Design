@@ -109,6 +109,8 @@ The theoretical ADC range extends to approximately 3.3 V. With the sensor model 
 
 ### Firmware Flow
 
+<img width="404" height="245" alt="mermaid-flowchart-2026-08-23T03-05-18" src="https://github.com/user-attachments/assets/d367f673-8a98-4420-86b0-341db08137c2" />
+
 ```text
 
 Simulation and Analysis
