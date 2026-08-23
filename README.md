@@ -75,13 +75,13 @@ The 3.3 V supply is generated from the nominal 5 V input using an **AMS1117-3.3*
 
 ### Schematic
 
-![Schematic](Images/schematic.png)
+<img width="404" height="245" alt="VirtualTemperatureMonitoringPCB_Schematic" src="https://github.com/user-attachments/assets/3ad24ec4-859f-4658-8d0d-4161521fbfd5" />
 
 *KiCad schematic showing the temperature-sensing, filtering, power, MCU, and UART sections.*
 
 ### PCB Layout
 
-![PCB Layout](Images/pcb-layout.png)
+<img width="404" height="245" alt="VirtualTemperatureMonitoringPCB_pcb" src="https://github.com/user-attachments/assets/cf4023e5-31c0-4a86-9a18-1a740bd3b6a0" />
 
 *PCB layout showing component placement, routing, and ground copper.*
 
@@ -192,9 +192,9 @@ Some expected values are:
 
 ### SPICE Simulation
 
-![SPICE Simulation](Images/spice-response.png)
+<img width="404" height="245" alt="PCB_TempFiltered vs TempSensor AT 2V" src="https://github.com/user-attachments/assets/ab388c55-5e97-44fd-8b53-3d76acc024fd" />
 
-*Simulated transient response of the RC low-pass filter.*
+*Simulated transient response of the RC low-pass filter at 2.0V.*
 
 ## Verification
 
